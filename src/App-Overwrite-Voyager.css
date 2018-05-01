@@ -1,0 +1,93 @@
+/* Data Pane */
+/* white background */
+.data-pane__data-pane {
+  background-color: white;
+}
+/* dark text */
+.data-pane__data-pane h2.data-pane__data-pane-title {
+  color: #38425d;
+}
+.data-pane__data-pane .data-pane__current-dataset {
+  color: #38425d;
+}
+.data-pane__data-pane .data-pane__data-pane-section h3 {
+  color: #38425d;
+}
+
+
+/* Encoding Pane */
+.encoding-pane__encoding-pane {
+  background-color: white;
+}
+.encoding-shelf__encoding-shelf {
+  background-color: white;
+  border: hidden;
+}
+
+/* View Pane */
+.view-pane__view-pane {
+  background-color: #f9f9f9;
+  overflow: visible;
+}
+.view-pane__view-pane h2 {
+  display: none;
+}
+
+
+/* Panes in general */
+.Pane {
+  background-color: white;
+}
+.voyager .pane {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Pill and Shelf related */
+.field__field-pill {
+  border-radius: 15px;
+}
+.encoding-shelf__placeholder {
+  border-radius: 15px;
+}
+.encoding-shelf__placeholder-active {
+  border-radius: 15px;
+}
+.encoding-shelf__placeholder-over {
+  border-radius: 15px;
+}
+.filter-pane__placeholder {
+  border-radius: 15px;
+  width: 92%;
+}
+
+/* Footer */
+.footer__footer a {
+  color: #bbbbbb;
+}
+
+/* Header */
+.header__header {
+  height: 25px;
+}
+.header__header img {
+  display: none;
+}
+.header__header .controls__controls > div:first-child {
+  display: none;
+}
+
+/* Undo Redo */
+.controls__controls {
+  position: absolute;
+  bottom: 20px;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  text-align: center;
+}
+.controls__controls button {
+  margin: 2px;
+}

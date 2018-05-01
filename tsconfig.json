@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "outDir": "build/dist",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es7", "dom"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "react": ["node_modules/@types/react"],
+      "react-redux": ["node_modules/@types/react-redux"],
+      "react-dom": ["node_modules/@types/react-dom"],
+      "react-dnd": ["node_modules/@types/react-dnd"],
+      "react-dnd-html5-backend": ["node_modules/@types/react-dnd-html5-backend"],
+      "react-split-pane": ["node_modules/@types/react-split-pane"],
+      "redux-undo": ["node_modules/redux-undo"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts"
+  ],
+  "include": [
+    "./typings/*.d.ts",
+    "src/"
+  ],
+  "types": [
+    "typePatches"
+  ]
+}
